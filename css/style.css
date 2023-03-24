@@ -3,9 +3,27 @@
     padding: 0;    
 }
 
-body {
+html {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 800px)  {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px)  {
+    html {
+        font-size: 9px;
+    }
 }
 
 header {
@@ -15,6 +33,12 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1200px)  {
+    header {
+        height: 15vh;
+    }
 }
 
 h1 {
@@ -35,6 +59,18 @@ form {
     flex-direction: column;
     gap: 1rem;
 
+}
+
+@media only screen and (max-width: 1200px)  {
+    form {
+        max-width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+    form {
+        max-width: 98vw;
+    }
 }
 
 form input {
