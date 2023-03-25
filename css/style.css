@@ -126,3 +126,7 @@ ul li {
 .username {
     font-weight: 700;
 }
+
+.add {
+    text-transform: uppercase;
+}
